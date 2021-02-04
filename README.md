@@ -10,10 +10,9 @@ I am very excited to begin this journey of learning the  *in silico* techniques 
 ## Vision ##
 
 `Long Term Vision`
-To become an established computational biologist who is able to support human health research and contribute to academia.
+To become an established computational biologist who is able to support human health research in Africa and beyond by deisgning analysis workflows tailored to needs of the research activity.
 
 `Short Term Vision`
-To contribute to the mini-projects being carrie out at ICIPE apply for postgraduate programs incomputational biology using the skills that I will hav e gained after this internship training.
-
+To efficiently contribute to the bioinformatics projects being carried out at ICIPE and later apply for postgraduate programs in bionformatics/computational biology using the skills acquired.
 
 To interact with my learning schedule for my internship period, feel free to visit my [roadmap](
