@@ -23,6 +23,6 @@ To interact with my learning timeline for my internship period, feel free to vis
 
 I am looking forward to interact with present and aspiring bioinformaticians and computational biologists who share the same interests and passion!
 
-You can reach me via my [Twitter account](twitter.com/HebrewSimeon) and I will be happy to engage with you.
+You can reach me via my [Twitter account](https://twitter.com/hebrewsimeon) and I will be happy to engage with you.
 
 Thank you!:sparkles:
