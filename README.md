@@ -20,3 +20,9 @@ To contribute to the bioinformatics projects being carried out at ICIPE using th
 
 
 To interact with my learning timeline for my internship period, feel free to visit my [roadmap](https://github.com/simeonhebrew/Bioinformatics-Internship/issues/1)
+
+I am looking forward to interact with present and aspiring bioinformaticians and computational biologists who share the same interests and passion!
+
+You can also contact me via my [e-mail](simeonhebrew@gmail.com) and I will be happy to respond.
+
+Thank you!:sparkles:
