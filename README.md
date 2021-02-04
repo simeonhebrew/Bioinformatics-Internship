@@ -19,10 +19,12 @@ To become an established computational biologist who is able to support human he
 To contribute to the bioinformatics projects being carried out at ICIPE using the skills acquired and later apply for postgraduate programs in computational biology.
 
 
-To interact with my learning timeline for my internship period, feel free to visit my [roadmap](https://github.com/simeonhebrew/Bioinformatics-Internship/issues/1)
+To interact with my learning timeline for my internship period, feel free to visit my [roadmap](https://github.com/simeonhebrew/Bioinformatics-Internship/issues/1).
 
 I am looking forward to interact with present and aspiring bioinformaticians and computational biologists who share the same interests and passion!
 
 You can reach me via my [Twitter account](https://twitter.com/hebrewsimeon) and I will be happy to engage with you.
 
 Thank you!:sparkles:
+
+![caption](https://i.pinimg.com/originals/bf/04/59/bf0459fc4fc68524d407ca008e01c8e5.gif)
