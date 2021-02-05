@@ -30,3 +30,18 @@ There are different options available but all should adhere to specific guidelin
 - The data should be accessible to different lab members.
 - The data should be kept in a place which is backed up redundantly.
 - **The raw data should be left as the raw data**
+
+The data can be stored using different resources such as high performance computers, hard disks as well as cloud computing platforms;
+>
+```
+Microsoft Azure
+Google Cloud
+Amazon S3
+Open Science Framework
+
+```
+- **Examining data on NCBI SRA Database**
+
+NCBI [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) is a public resporitory where one can access archived data from a published study. The data can then be examined and compared with the results in the study. Using a specific identifier to the bioproject section of the databse, ne is able to access the sequence reads as well as the metadata for personal use.
+It also has a toolkit that allows to you to submit your own data which will become publicly available.
+The EMBL-EBI European Nucleotide Archive also offers a similar option which allows one to key in a particular accession number to access sequence files.
