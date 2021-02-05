@@ -17,4 +17,16 @@ The metadata should be vividly explained, possibly through separate ReadMe files
 
 - **Documenting and organizing NGS projects**
 
-In the case where large datasets are being used,proper planning, documenting and organizing of samples or datasets will  be needed
+In the case where large datasets are being used,proper planning, documenting and organizing of samples or datasets will be essential to the success of an in *_in silico_* study. 
+
+`When sending sampels to sequencing facility`
+Sample submission sheets should contain well labelled variable columns and data inputs which adhere to the naming convention.
+
+`When retrieving data from sequencing facility`
+One should go through the metadata provided as well as the exact sequence files (note the sequence platform used, the number of reads generated and the size of the reads)
+
+`When storing data`
+There are different options available but all should adhere to specific guidelines of storing data
+- The data should be accessible to different lab members.
+- The data should be kept in a place which is backed up redundantly.
+- **The raw data should be left as the raw data**
