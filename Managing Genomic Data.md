@@ -1,4 +1,4 @@
-# Genomic Data Management # :open_file_folder:
+# Genomic Data Management  :open_file_folder:
 
 Data needs to be organized in a systematic way so that it is easier for the researcher to keep track all of the data produced from the study as well as make it possible
 for collaborators to interact with the data efficiently.
