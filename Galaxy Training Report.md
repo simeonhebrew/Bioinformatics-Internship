@@ -60,6 +60,7 @@ The tutorials were followed in a sequential order as listed below;
    later be used a reference platform for different types of analysis. Quality checks are first carried out on the reads after which assembly is carried out using different Galaxy-based tool such as
    Flye or Unicycler. The assembled data can then be visualized using Bandage, a built-in Graphical viewer in Galaxy. The assembly can be polished further by mapping short reads to the assembly(BWA-MEM) and using 
    Pilon/Racon to compare short reads to the assembly and hence create a polished version.Annotation is then carried out using Prokka and can be visualized using Jbrowse.
+ ---  
    
    **RNA Seq Analysis with Galaxy and R**
    
@@ -75,6 +76,7 @@ The tutorials were followed in a sequential order as listed below;
    goseq tool.
    *R* was then introduced as an important tool for biologists especially for handling tabular data and visualizing RNA-Seq post-processed data. This was done using different R libraries such as
    tidyr and dplyr afterwhich visualization was done using the ggplot2 tool.
+   ---
    
    **Single Cell RNA-Seq Analysis**
    
@@ -87,6 +89,7 @@ The tutorials were followed in a sequential order as listed below;
    barcodes and genes. A quality count matrix is then produced to give the number of cells that have been differentially expressed ; this is accomplished by the DropletUtils tool.
    To practise on scRNA-Seq analysis, clustering scRNA-Seq data using ScanPy was carried out so as to undertand how cell differentially expression can be analyzed using clusters represented in statistical 
    output.
+   ---
    
    **Proteomics**
    Proteomics refers to the large scale study of proteins in an organism, that is, proteins whhcih are either produced or modified  by the organism. We concentrated on a specific field of proteomics called
@@ -102,7 +105,7 @@ The tutorials were followed in a sequential order as listed below;
    using the PepPointer tool.
    Moreover, a metaproteomics workflow was ran where metaproteomics is the large-scale characterization of the entire collection of proteins in the environmental microbiota. In the Galaxy workflow, the input files are the MGF files which are searched 
    against a metapeptides database using the SearchGUI tool afterwhich Peptide Shaker gives an assesment of the data through a PSM report. Different analyses are then undertaken such as taxonomy analysis and a functional analysis.
-   
+   ---
  
    **Galaxy Analysis Workflows**
    Using the skills obtained after the training, I was able to carry out different analyses using datasets that are provided by the Galaxy Training Network.
