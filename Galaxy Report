@@ -86,13 +86,20 @@ The tutorials were followed in a sequential order as listed below;
    output.
    
    Proteomics
-   Prteom involves matching peptides generated from Liquid-Chromatography/Mass-Spectrometry with in silico fragemented peptides so as to identify peptides from a specific sample. The major field that was studied was 
+   Prteomics refers to the large scale study of proteins in an organism, that is, proteins whhcih are either produced or modified  by the organism. We concentrated on a specific field of proteomics called
    proteogenomics which used mass spectrometry based proteomics data against genomics and transcriptomics data to identify peptides and understand protein level evidence of gene expression.
    This is divided into three facets: creating a proteogenomics database, searching a proteogenomics database and novel peptide analysis.
    When creating a proteogenomics databse, the FASTQ files are first mapped to a reference genome using the HISAT2 tool after which variant analysis and variant annotation are done using FreeBayes and CustomProDB respectively.
    The transcripts are assembled using StringTie and the assembly is evaluated with annotated transcripts using GffCompare. The transcripts are then translated to proteins are FASTA Databases are created using the FASTA MERGE FILES tool.
-   The proteogenomics database is then searched using mass spectrometry files (MGF files) as the input files. The database is searched using the SearchGUI tool so as to match the peptide sequences. Pep
-
+   The proteogenomics database is then searched using mass spectrometry files (MGF files) as the input files. The database is searched using the SearchGUI tool so as to match the peptide sequences. Peptide shaker is then used to assess
+   the confidence of data by generating a PSM report and certificate of analysis. A SQLite database is then created for peptide, protein and genome annotation visualization. The known proteins are
+   removed from the list of PSM and the data is at that moment ready for novel peptide analysis.
+   Novel peptide analysis is achieved using BlastP feature present in the NCBI Query Platform. However, Galaxy conveniently provides a tool known s NCBI BLAST + blastp  which gives the desired possible protein hits. One can also 
+   utilize the Multiomics Visualization Program provided by Galaxy to view selcted peptides for further analysis. The peptide genomic coordinates are then obtained using the Obtaibing Coordinates tool afterwhich the peptides are classified
+   using the PepPointer tool.
+   Moreover, a metaproteomics workflow was ran where metaproteomics is the large-scale characterization of the entire collection of proteins in the environmental microbiota. In the Galaxy workflow, the input files are the MGF files which are searched 
+   against a metapeptides database using the SearchGUI tool afterwhich Peptide Shaker gives an assesment of the data through a PSM report. Different analyses are then undertaken such as taxonomy analysis and a functional analysis.
+   
  
    
  
