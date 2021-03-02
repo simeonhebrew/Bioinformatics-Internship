@@ -1,8 +1,9 @@
-# GALAXY 
+# GALAXY TRAINING REPORT
 
 ---
 
  **INTRODUCTION**
+ 
 Having attended a [Galaxy](https://usegalaxy.eu/) training program from 15th February 2021 to 19th February 2021, the following is an account of all the different analysis workflows that I was exposed to as well as the skills that are gained during the training period.
 Galaxy is a web-based and user-friendly data analysis platform that allows one to use a variety of tools to analyse a wide range of biological data over a significantly short period of time hence reducing the data analysis burden on the modern-day bioinformatician. The tools are developed using various scripting languages such as Python and R and are set in an interactive format that allows for parameter modification based on the need of the specific analysis at hand. The fact that Galaxy is able to handle raw data, analyze it and give desired results in one environment makes it a suitable platform to carry out bioinformatics workflows. Nucleotide sequence data from both long-read sequencing(eg.Nanopore) and short-read sequencing (eg.Illumina) are the most common form of input for analysis, with the data encoded in fastq format. Peptide sequence data from Liquid Chromatography/Mass Spectrometry protocols can also be used for proteomic and/or proteogenomic analysis(mostly encoded in MGF. format)
 With the ability to support various workflows, Galaxy can be used to create different analysis pipelines of genomic importance.These include sequence quality control, genome mapping/alignment, genome annotation, genome assembly,variant calling among others that will be described later in this document.
@@ -107,9 +108,9 @@ The tutorials were followed in a sequential order as listed below;
    Using the skills obtained after the training, I was able to carry out different analyses using datasets that are provided by the Galaxy Training Network.
    You can find below the link to my histories if you would like to follow through my analysis pipeline.
    
-   - *Annotating a prokaryotic genome* - [Link](https://usegalaxy.eu/u/hebrewsimeon/h/annotating-prokaryotic-genome)
-   - *M.tuberculosis variant analysis* - [Link](https://usegalaxy.eu/u/hebrewsimeon/h/mtuberculosis-variant-analysis)
-   - *ProteoRE tool for biomarker discovery* - [Link](http://www.proteore.org/u/hebrewsimeon/h/protein-annotation)
+   - *Annotating a prokaryotic genome* - [Genome Annotation](https://usegalaxy.eu/u/hebrewsimeon/h/annotating-prokaryotic-genome)
+   - *M.tuberculosis variant analysis* - [Variant Analysis](https://usegalaxy.eu/u/hebrewsimeon/h/mtuberculosis-variant-analysis)
+   - *ProteoRE tool for biomarker discovery* - [Protein Annotation](http://www.proteore.org/u/hebrewsimeon/h/protein-annotation)
    
  
 
