@@ -3,7 +3,7 @@
 ---
 
  **INTRODUCTION**
-Having attended a [Link](https://usegalaxy.eu/) training program from 15th February 2021 to 19th February 2021, the following is an account of all the different analysis workflows that I was exposed to as well as the skills that are gained during the training period.
+Having attended a [Galaxy](https://usegalaxy.eu/) training program from 15th February 2021 to 19th February 2021, the following is an account of all the different analysis workflows that I was exposed to as well as the skills that are gained during the training period.
 Galaxy is a web-based and user-friendly data analysis platform that allows one to use a variety of tools to analyse a wide range of biological data over a significantly short period of time hence reducing the data analysis burden on the modern-day bioinformatician. The tools are developed using various scripting languages such as Python and R and are set in an interactive format that allows for parameter modification based on the need of the specific analysis at hand. The fact that Galaxy is able to handle raw data, analyze it and give desired results in one environment makes it a suitable platform to carry out bioinformatics workflows. Nucleotide sequence data from both long-read sequencing(eg.Nanopore) and short-read sequencing (eg.Illumina) are the most common form of input for analysis, with the data encoded in fastq format. Peptide sequence data from Liquid Chromatography/Mass Spectrometry protocols can also be used for proteomic and/or proteogenomic analysis(mostly encoded in MGF. format)
 With the ability to support various workflows, Galaxy can be used to create different analysis pipelines of genomic importance.These include sequence quality control, genome mapping/alignment, genome annotation, genome assembly,variant calling among others that will be described later in this document.
 Moreover, it is reproducible in nature .
@@ -61,6 +61,7 @@ The tutorials were followed in a sequential order as listed below;
    Pilon/Racon to compare short reads to the assembly and hence create a polished version.Annotation is then carried out using Prokka and can be visualized using Jbrowse.
    
    **RNA Seq Analysis with Galaxy and R**
+   
    **RNA-Seq Analysis** involves analysis of the whole transcriptome in a high throughput manner.This analysis is usually met by various shortcomings suchas incompletely processed RNAs or transcriptional background
    noise,sequencing biases and the presence of introns in the reference genome used.Reference-based RNA-Seq analysis is commonly used and Galaxy provides different tools that circumvent the
    challenges that have been highlighted. Using a Galaxy Workflow, the raw sequence reads undergo quality control using FASTQC after which any adapters present are trimmed using
@@ -75,6 +76,7 @@ The tutorials were followed in a sequential order as listed below;
    tidyr and dplyr afterwhich visualization was done using the ggplot2 tool.
    
    **Single Cell RNA-Seq Analysis**
+   
    **Single Cell RNA-Seq analysis** (abbreviated as scRNA-Seq analysis) involves the analysis of individual cells within tissues and gives more information about the individual gene expression per cell
    In this case, differential expression analysis may involve some cells expressing the same set of genes in the same way and hence one set of cells can be compared against another
    This is different from Bulk RNA-Seq analysis which involves analysis of the average gene expression per tissue.Barcodes are mostly used to mark reads in scRNA-seq.A quality check is first performed on the reads after which
