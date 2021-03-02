@@ -12,20 +12,20 @@ The main servers, however, are based in Europe(usegalaxy.eu) , Australia (usegal
 
 The tutorials were followed in a sequential order as listed below;
 
-1. Introduction to Galaxy and NGS Data Analysis
+1. Introduction to Galaxy Worflows
 - Quality Control
-- Analyzing Next Generation Sequencing (NGS) data
 - Genome Mapping
 - Genome Assembly
 
 2. Introduction to RNA-Seq analysis with Galaxy and R  
-- Introduction to RNA-Seq
+  
 - Reference based RNA-Seq
 - Starting R in Galaxy 
 - RNA postprocessing with R
 
 3. Single Cell RNA-Seq Analysis
- 
+  - Pre-processing of 10x Single-Cell RNA datasets
+  - Clustering singel-cell RNA-Seq data using ScanPy
 
 4. Proteomics
 - Creating a proteogenomics database
@@ -34,7 +34,7 @@ The tutorials were followed in a sequential order as listed below;
 - Metagenomics
 
 
-1. Introduction to Galaxy anf NGS Data analysis
+1. Introduction to Galaxy Workflows
    Quality control is a major protocol that is undertaken when handlinng sequence data that has been produced after sequencing. It serves to check, as the name suggests, the quality
    of the sequences so that they can be validated for other downstream processes such as genome mapping or variant calling. Galaxy has tools that enable the user to perform routine
    quality checks which include FastQC and MUltiQC. FastQC provides a set of analysis paremeters that allow one to note any error in their reads while MultiQC gives a colective report on
@@ -86,7 +86,7 @@ The tutorials were followed in a sequential order as listed below;
    output.
    
    Proteomics
-   Prteomics refers to the large scale study of proteins in an organism, that is, proteins whhcih are either produced or modified  by the organism. We concentrated on a specific field of proteomics called
+   Proteomics refers to the large scale study of proteins in an organism, that is, proteins whhcih are either produced or modified  by the organism. We concentrated on a specific field of proteomics called
    proteogenomics which used mass spectrometry based proteomics data against genomics and transcriptomics data to identify peptides and understand protein level evidence of gene expression.
    This is divided into three facets: creating a proteogenomics database, searching a proteogenomics database and novel peptide analysis.
    When creating a proteogenomics databse, the FASTQ files are first mapped to a reference genome using the HISAT2 tool after which variant analysis and variant annotation are done using FreeBayes and CustomProDB respectively.
@@ -101,5 +101,12 @@ The tutorials were followed in a sequential order as listed below;
    against a metapeptides database using the SearchGUI tool afterwhich Peptide Shaker gives an assesment of the data through a PSM report. Different analyses are then undertaken such as taxonomy analysis and a functional analysis.
    
  
+   Galaxy Analysis Workflows
+   Using the skills obtained after the training, I was able to carry out different analyses using datasets that are provided by the Galaxy Training Network.
+   You can find below the link to my histories if you would like to follow through my analysis pipeline.
+   
+   1 Annotating a prokaryotic genome - [Link](https://usegalaxy.eu/u/hebrewsimeon/h/annotating-prokaryotic-genome)
+   2 M.tuberculosis variant analysis - [Link](https://usegalaxy.eu/u/hebrewsimeon/h/mtuberculosis-variant-analysis)
+   3 ProteoRE tool for biomarker discovery - [Link](http://www.proteore.org/u/hebrewsimeon/h/protein-annotation)
    
  
