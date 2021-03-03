@@ -65,3 +65,11 @@ find key in handling sequences using Biopython.
           for rec in SeqIO.parse("../Data/genbankseq.fasta", "fasta") if len(rec)>0)
    SeqIO.write(record, "../Data/trgenbankseq.fasta", "fasta")
    
+```
+7. A program that translates sequence files and stores them in a separate file.
+   ```
+   def translateandkeep(readfile,writefile):
+    from Bio import SeqIO
+    records = (rec.translate(id="tr_"+rec.id, description="Translated sequences") \
+               for rec in SeqIO.parse(readfile, "fasta") if len(rec) > 0)
+    SeqIO.write(records, writefile, "fasta")
