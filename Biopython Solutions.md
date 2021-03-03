@@ -50,12 +50,18 @@ find key in handling sequences using Biopython.
         print(record.id)
         print(record.seq.transcribe())
         
-5. A function that translates nucleotide sequences in a file(genbank/fasta formart)
+5. A function that translates nucleotide sequences in a file(genbank/fasta formart) - 
    ```
     def filetranslate(readfile):
     from Bio import SeqIO
     for record in SeqIO.parse(readfile, "genbank"):
         print(record.id)
         print(record.seq.translate())
+6.A program that takes in a sequence file,translates it and saves the corresponding protein sequence in fasta formart(Number 10 in Exercise)
+  ```
+   from Bio import SeqIO
 
+   record = (rec.translate(id="tr"+rec.id, description="Translated sequence")\
+          for rec in SeqIO.parse("../Data/genbankseq.fasta", "fasta") if len(rec)>0)
+   SeqIO.write(record, "../Data/trgenbankseq.fasta", "fasta")
    
