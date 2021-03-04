@@ -3,7 +3,7 @@
 ---
 
 Here are my attempts to this biopython [exercise](http://disi.unitn.it/~teso/courses/sciprog/python_biopython_exercises.html) as well as some functions that I
-find key in handling sequences using Biopython.
+find important when handling sequences using Biopython.
 
 1. A program that takes in two DNA Sequences, concatenates them and gives you the reverse complement.
 ```
@@ -73,3 +73,31 @@ find key in handling sequences using Biopython.
     records = (rec.translate(id="tr_"+rec.id, description="Translated sequences") \
                for rec in SeqIO.parse(readfile, "fasta") if len(rec) > 0)
     SeqIO.write(records, writefile, "fasta")
+
+8. A program that quickly parses through large FASTA and FASTA Qc files
+   ```
+   from Bio.SeqIO.FastaIO import SimpleFastaParser
+   count = 0
+   total_len = 0
+   with open("../Data/example.fasta") as readseq:
+    for title, seq in SimpleFastaParser(readseq):          #if fastq file (for title,seq,qual in FastqGeneralIterator(readseq))     
+        count +=1
+        total_len += len(seq)
+        
+        print(count)
+        print(total_len)
+        
+   ```
+9. A program that adds a numbering system to a stockholm alignment file and converts it to a phylip file
+
+   ```
+   from Bio import AlignIO
+
+   alignment = AlignIO.read("../Data/PF05356_seed.txt", "stockholm")
+   name_mapping = {}
+   for i, record in enumerate(alignment):
+    name_mapping[i] = record.id
+    record.id = "seq%i" % i
+   print(name_mapping)
+   AlignIO.write([alignment], "../Data/PF05356_seed.phy", "phylip")
+
