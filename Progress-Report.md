@@ -58,7 +58,7 @@ Nextflow as a workflow language and Galaxy for workflow development.
 I am currently able to efficiently create, manipulate and navigate through directories and files in a Linux environment from the command line. Furthermore, 
 I have a good foundation in Bash scripting notably in using conditional statements to develop programs that are specified to a particular task. Solving bash exercise
 such as this [one](https://github.com/simeonhebrew/Code-Exercises) helped me in expanding my bash syntax vocabulary. However, I have experienced a challenge in 
-fully understanding how to use ```sed``` and ```awk``` for string and file manipulation which I am working on on a daily basis.
+fully understanding how to use ```sed``` and ```awk``` for string and file manipulation using regular expressions which I am working on on a daily basis.
 Moreover, I have practised Bash scripting regularly and learnt other bash scripting functionalities by following different tutorials and developing test pipelines. 
 For instance,while developing the [ChIP-Seq pipeline](https://github.com/simeonhebrew/ChIP-Seq-Analysis-Pipeline), I learnt how to utilize Bioinformatics tools 
 from the command line which I had previously used at GUI level eg. ```meme```. I am always seeking to expand my command vocabulary by striving to learn two commands 
@@ -68,7 +68,7 @@ a day and trying to use them while engaging in practical work.
 I have also been able to understand the basic principles of Python such as learning string manipulation, control flow statements, functions,
 reading files, using modules and scripting.Jupyter notebooks which allowed for interactive python programming and referencing. This founding concepts 
 enabled me to learn simple data analysis using ```pandas```.This facilitated learning basic concepts of machine learning such as supervised learning using 
-modules such as ```scikit learn``` , ```matplotlib```, ```mglearn``` and ```pandas ```; my machine learning progress is available [here](https://github.com/simeonhebrew/Bioinformatics-Internship/blob/main/Machine%20Learning.ipynb)
+modules such as ```scikit learn``` , ```matplotlib```, ```mglearn``` and ```pandas ```; my machine learning progress is available [here](https://github.com/simeonhebrew/Bioinformatics-Internship/blob/main/Machine%20Learning.ipynb). 
 My most significant experience with Python has been utilizing the Biopython module for reading and parsing through sequences and performing biologically 
 revelant operations such as transcribing, back-transcribing and translating sequence files.I have also been able to carry out sequence alignment, motif discovery
 and accessing the NCBI's Entrez database. To practise all that had been acquired, I followed a COVID-19 protein analysis tutorial that showed how a pipeline can
@@ -134,7 +134,7 @@ offers a thorough sample inference algorithm for discovering true ASVs. The [rep
 pipeline provides a procedural description of the pipeline as well as tabular and image output from the analysis.
 
 # Areas To Learn and Improve 
-- Bash scripting using ```sed``` and ```awk```.
+- Bash scripting using regular expressions (```sed``` and ```awk```)
 - Data analysis using Python.
 - Developing reproducible analysis pipelines.
 - Workflow development using Snakemake.
