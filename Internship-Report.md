@@ -1,4 +1,4 @@
-# Progress Report  :chart_with_upwards_trend:
+# Bioinformatics Internship Report  :chart_with_upwards_trend:
 
 ## Introduction 
 
@@ -140,6 +140,6 @@ pipeline provides a procedural description of the pipeline as well as tabular an
 - Workflow development using Snakemake.
 - Handling data files and understanding statistical output from R Studio.
 
-# Pending Tasks 
-- Undertaking a Mini-Project 
+# Mini-Project
+
 
