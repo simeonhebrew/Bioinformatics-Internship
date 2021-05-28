@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-The following is an account of my progress approximately two months into my bioinformatics internship with respect to the goals that I had set out to achieve by the
+The following is an account of my four month bioinformatics internship with respect to the goals that I had set out to achieve by the
 end of the incubation program. The descriptions given define what I have been exposed to so far, steps I have made towards attaining desired competence and the
 challenges I have encountered during the same. Conclusively, I have provided specific areas which I need to learn and revisit so as to scale up my bioinformatics
 skills. 
