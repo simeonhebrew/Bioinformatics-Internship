@@ -133,13 +133,22 @@ The [pipeline](https://github.com/mbbu/16S_Accreditation/blob/main/Dada2_Pipelin
 offers a thorough sample inference algorithm for discovering true ASVs. The [report](https://github.com/mbbu/16S_Accreditation/blob/main/Dada2_report.md) of the
 pipeline provides a procedural description of the pipeline as well as tabular and image output from the analysis.
 
-# Areas To Learn and Improve 
-- Bash scripting using regular expressions (```sed``` and ```awk```)
-- Data analysis using Python.
-- Developing reproducible analysis pipelines.
-- Workflow development using Snakemake.
-- Handling data files and understanding statistical output from R Studio.
 
 # Mini-Project
+I had the opprotunity of applying my skillset in a real study that involved bioinformatics analysis. This was when we (my colleague Rose Wambui and I) were tasked with
+developing a variant calling pipeline as a part of a genotyping study involving comparing genotypic differences between T.congolese present in wildlife and livestock.
+We approached the designated project by first going through revelant literature which described the importance of variant calling and its significance in inferring population
+variation as well as transmission events. We also made ourselves aware of the various variant calling tools that are available and the algorithmic moels they utilize to discover
+polymorphisms.
+
+Background research allowed us to settle on three tools : Bcftools, Freebayes and the Genome Analyis Toolkti (GATK). We then moved to compare these tools using a sample Escherichia coli dataset so as to obtain a measure of the discrepancies that arise with respect to the number and type of variants called. Comparison indicated that GATK was a 
+better suited variant calling tool for short variant discovery possibly due to its haplotype realignment algorithm. We then learnt the features that it provides and how to optimize our workflow since GATK was initially developed to cater for human variant calling. Optimization involved creating our own file of known variants which are required
+for base recalibration as well as hard-filtering our raw variants since the recommended variant quality score recalibration process utilizes human HapMap data which is unavailable for non-human data, as was in our case.
+
+We then proceeded to annotate the variants using snpEff and were able to infer sensible conclusions based on the annotation results and the metadata that was provided.
+The entire [pipeline]() was developed using the Nextflow workflow language and a comprehensive [report]() on the methodology and findings is also available.
+
+
+
 
 
