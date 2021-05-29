@@ -4,14 +4,14 @@
 
 The following is an account of my four month bioinformatics internship with respect to the goals that I had set out to achieve by the
 end of the incubation program. The descriptions given define what I have been exposed to so far, steps I have made towards attaining desired competence and the
-challenges I have encountered during the same. Conclusively, I have provided specific areas which I need to learn and revisit so as to scale up my bioinformatics
-skills. 
+challenges I have encountered during the same. Conclusively, I have provided highlights of the mini-project that I was tasked with at the end of the internship. 
 The aims that I had set with regards to the program were divided into specific sub-themes which were;
 
 1) Learning Collaborative Tools - Slack and GitHub
 2) Understanding Genomic Data Management and Reproducibility in bioinformatics
 3) Comprehending computational methods for biological data analysis - Programming using Bash scripting, Python and R.
 4) Understanding principles and key concepts in bioinformatics.
+5) Participating in a mini-project
 
 ## Learning Collaborative Tools :wrench:
 I was introduced to tools that enhance efficient team collaboration while undertaking computational tasks. These tools were Slack and GitHub. Slack is a platform
